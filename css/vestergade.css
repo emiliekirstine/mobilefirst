@@ -1,0 +1,116 @@
+@font-face {
+    src: url(../fonts/PeyoRegular.ttf);
+    font-family: peyo;
+}
+
+body {
+    font: 18px peyo, sans-serif;
+    background-color: #A0BEAD;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+    height: auto;
+    background: #FFE680;
+}
+
+nav {
+    font-family: peyo;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+section {
+    margin: 6%;
+}
+
+button {
+    font-family: peyo;
+    font-size: 1em;
+    color: white;
+    background-color: #738B8D;
+    border-style: none;
+    border-radius: 30px 30px 30px 30px;
+    width: 40%;
+    padding: 4%;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin: 3%;
+}
+
+.buts {
+    display: block;
+    text-align: center;
+}
+
+.cafemenu {
+    margin-left: 29%;
+}
+
+p {
+    color: white;
+    line-height: 1.65;
+    margin-bottom: 3%;
+}
+
+li {
+    color: white;
+    line-height: 1.65;
+}
+
+
+#cafe {
+    padding: 4%;
+    list-style: circle;
+}
+
+#tlf {
+    text-align: center;
+}
+
+#adress {
+    text-align: center;
+    color: #435152;
+}
+
+
+#weekdays {
+    float: left;
+    padding-left: 13%;
+}
+
+#times {
+    padding-left: 69%;
+}
+
+.dark {
+    color: #435152;
+}
+
+/* Headlines
+-----------------------------------------------------------------------------*/
+h1, h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #435152;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+h3 {
+    color: #435152;
+}
+
+

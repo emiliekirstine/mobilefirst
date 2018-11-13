@@ -1,0 +1,144 @@
+body {
+    font: 16px/18px Arial, sans-serif;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktopsmall {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+.banner {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.heading {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: peyo;
+}
+
+@media only screen and (min-width: 450px) {
+    #wrapper {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+        margin-left: 6%;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 30%;
+        float: left;
+        margin: 0.5%;
+    }
+
+    .two {
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #wrapper {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .desktopsmall {
+        display: block;
+        margin-left: 4%;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 31%;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five {
+        width: 18%;
+        float: left;
+        margin: 0.5%;
+    }
+    
+    .two,
+    .four {
+        margin-top: 11%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #wrapper {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+    
+    .desktopsmall {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        margin-left: 3.5%;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 31%;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        width: 15%;
+        float: left;
+        margin: 0.5%;
+    }
+
+    .two,
+    .four,
+    .six {
+        margin-top: 9%;
+    }
+
+}
