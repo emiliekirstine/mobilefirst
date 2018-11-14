@@ -4,8 +4,9 @@
 }
 
 body {
-    font: 18px peyo, sans-serif;
+    font: 20px peyo, sans-serif;
     background-color: #BFAF8B;
+    border: solid #fff;
 }
 
 #wrapper {
@@ -13,22 +14,55 @@ body {
     margin: 0 auto;
 }
 
-img {
+main img {
     width: 100%;
+    border-bottom: solid #fff;
+    border-top: solid #fff;
 }
 
 
 /* Header
 -----------------------------------------------------------------------------*/
 header {
+    height: 40px;
+    border-bottom: solid #fff;
+    text-align: center;
+}
+
+/* Nav
+-----------------------------------------------------------------------------*/
+
+.bar-menu {
+    width: 100%;
+    background: #B9B9B9;
+    height: 40px;
+    
+}
+
+.navbar {
+    height: 40px;
+}
+
+.navbar li {
+    display: inline;
     height: auto;
-    background: #FFE680;
+    list-style: none;
+    font-size: 1.2em;
 }
 
-nav {
-    font-family: peyo;
+.text a {
+    padding: 5%;
+    text-decoration: none;
+    color: #fff;
+    width: 45%;
 }
 
+.navbar img {
+    height: 40px;
+    vertical-align: middle;
+    border-left: solid #fff;
+    border-right: solid #fff;   
+}
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -37,7 +71,7 @@ section {
     margin: 6%;
 }
 
-button {
+article button {
     font-family: peyo;
     font-size: 1em;
     color: white;
@@ -49,7 +83,6 @@ button {
     padding-left: 9%;
     padding-right: 9%;
     margin: 3%;
-
 }
 
 .buts {
@@ -67,7 +100,7 @@ p {
     margin-bottom: 3%;
 }
 
-li {
+article li {
     color: white;
     line-height: 1.65;
 }
@@ -106,11 +139,11 @@ li {
 -----------------------------------------------------------------------------*/
 h1,
 h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     color: #FFD78B;
     margin-top: 7%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 h3 {

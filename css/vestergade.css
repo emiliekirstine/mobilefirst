@@ -6,6 +6,7 @@
 body {
     font: 18px peyo, sans-serif;
     background-color: #A0BEAD;
+    border: solid #fff;
 }
 
 #wrapper {
@@ -13,22 +14,53 @@ body {
     margin: 0 auto;
 }
 
-img {
+main img {
     width: 100%;
+    border-bottom: solid #fff;
+    border-top: solid #fff;
 }
 
 
 /* Header
 -----------------------------------------------------------------------------*/
 header {
+    height: 40px;
+    border-bottom: solid #fff;
+}
+
+/* Nav
+-----------------------------------------------------------------------------*/
+
+.bar-menu {
+    width: 100%;
+    background: #B9B9B9;
+    height: 40px;
+    
+}
+
+.navbar {
+    height: 40px;
+}
+
+.navbar li {
+    display: inline;
     height: auto;
-    background: #FFE680;
+    list-style: none;
+    font-size: 1.2em;
 }
 
-nav {
-    font-family: peyo;
+.text a {
+    padding: 5%;
+    text-decoration: none;
+    color: #fff;   
 }
 
+.navbar img {
+    width: 100%;
+    vertical-align: middle;
+    border-left: solid #fff;
+    border-right: solid #fff;   
+}
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -65,7 +97,7 @@ p {
     margin-bottom: 3%;
 }
 
-li {
+article li {
     color: white;
     line-height: 1.65;
 }
@@ -106,7 +138,7 @@ h1, h2 {
     text-align: center;
     color: #435152;
     margin-top: 7%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 h3 {
