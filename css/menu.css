@@ -1,0 +1,383 @@
+@font-face {
+    src: url(../fonts/PeyoRegular.ttf);
+    font-family: peyo;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+    font: 18px Arial, sans-serif;
+    background-color: #bfaf8b;
+   
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: auto;
+	background: #FFE680;
+}
+
+.nav2{
+    display: none;
+}
+nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: auto;
+    line-height: 3em;
+}
+
+.menu a {
+    font-family: peyo;
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 2%;
+    line-height: 4em;
+}
+
+
+label {
+    margin: 0 6% 0 0;
+    font-size: 1.9em;
+    line-height: 2em;
+    display: none;
+    width: 5%;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+   
+}
+#desktop_menu{
+    display: none;
+}
+#mobile_img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+#tablet_img{
+    display: none;
+}
+
+#desktop_img{
+    display: none;
+}
+.content article {
+    font-family: peyo;
+    color: white;
+    margin-top: 15%;
+}
+
+.content ul{
+    line-height: 320%
+}
+#items{
+    width: 48%;
+    float: left;
+    padding-left: 4%;
+    
+}
+
+#prices{
+    width: 48%;
+    float: left;
+}
+
+
+#prices ul{
+    float: right;
+    padding-right: 4%;
+}
+
+#menu p{
+    font-size: 1.1em;
+    margin-bottom: 15%;
+    color: #ffd78b;
+}
+
+#prices p{
+    text-align: right;
+    padding-right: 4%;
+}
+
+.small{
+    font-size: 0.8em;
+    color: black;
+}
+
+#bar{
+    display: none;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 500px){
+    body{
+        background-color: white;
+    }
+    .wrapper{
+        background-color: white;
+    }
+    
+    .content {
+        margin: 18% 5% 5% 5%;
+        padding: 4% 8% 8% 20%;
+        background-color: #bfaf8b;
+        overflow: auto;
+    }
+    
+        .content img{
+            display: none;
+        }
+        
+    .content article{
+        position: relative;
+    }
+        #tablet_img{
+            display: block;
+            width: 50%;
+            position: absolute;
+            top: 10%;
+            left: 0;
+        }
+    
+    
+    }
+
+
+@media only screen and (min-width: 500px) {
+    
+    .header{
+        background-color: white;
+    }
+    
+    .nav{
+        display: none;
+        height: auto;
+    }
+    
+    .nav2{
+        display:block;
+        text-align: right;
+        width: 100%;
+        background-color: white;
+        font-size: 1.1em;
+ 
+    }
+    
+  .nav2 ul li{
+        display: inline;
+    }
+
+    
+    .nav2 a{
+        font-family: peyo;
+        text-align: center;
+        text-decoration: none;
+        color: #a2a0a0;
+        cursor: pointer;
+    
+        
+    margin: 0 3%;
+    line-height: 4em;
+            
+    }
+    
+    .nav2 a:active{
+        color: #E6B770;
+    }
+    
+   
+    span{
+        color: #E6B770;
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px){
+    
+    .nav2{
+        font-size: 1.3em;
+ 
+    }
+    .nav2 ul{
+        margin-right: 4%;
+    }
+}
+
+@media only screen and (min-width: 650px){
+    .content {
+        margin: 15% 5% 5% 6%;
+        padding: 4% 8% 8% 20%;
+}
+    #tablet_img{
+            width: 50%;
+        }
+    }
+
+@media only screen and (min-width: 750px){
+    
+    .nav2 ul{
+        margin-right: 9%;
+    }
+    #bar{
+        display: block;
+        color: #ffd78b;
+        position: absolute;
+        font-size: 1.8em;
+        top: -12%;
+        left: 45%;
+    }
+    }
+
+@media only screen and (min-width: 850px){
+    .content article{
+        font-size: 1.2em;
+    }
+}
+    
+@media only screen and (min-width: 950px){
+    .content {
+        margin: 12% 5% 5% 6%;
+        padding: 8% 8% 8% 20%;
+}
+    .content article{
+        font-size: 1.3em;
+    }
+     #tablet_img{
+            width: 46%;
+            position: absolute;
+            top: 16%;
+            left: 0;
+        }
+    
+    #bar{
+        top: -17%;
+        left: 45%;
+        color: #ffd78b;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    
+      .nav2 a{
+        
+        
+    margin: 0 2%;
+
+            
+    }
+     .nav2 ul{
+        margin-right: -1%;
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+  
+    
+    #desktop_menu{
+        font-family: peyo;
+        color: white;
+        font-size: 1.3em;
+        display: block;
+        margin: 10% 0% 0% 0%;
+    }
+    
+    .first_c{
+        width: 47%;
+        float: left;
+    }
+    
+    .second_c{
+        width: 47%;
+        float: left;
+        margin-left: 6%;
+       
+    }
+    
+    .d_items{
+        width: 50%;
+        float: left;
+    }
+    
+    .d_prices{
+        width: 50%;
+        float: left;
+    }
+    
+    #d_bar{
+        font-size: 2em;
+        color: #ffd78b;
+        position: relative;
+        left: 22%;
+      
+    }
+    
+    
+    #tablet_img{
+        display: none;
+    }
+    
+    #desktop_img{
+        max-width: 100%;
+        display: block;
+ position: relative;
+        left: -6%;
+ 
+    }
+   
+    .content {
+       margin: 0 auto;
+        
+}
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 1125px){
+.wrapper {
+        width: 1125px;
+        margin: 0 auto;
+    }
+    }
